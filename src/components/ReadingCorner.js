@@ -6,7 +6,7 @@ const ReadingCorner = () => {
     <section id="blogs">
       <div className="container px-5 py-10 mx-auto text-center">
         <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-6">
-          Browse along:
+          My favourite:
         </h1>
         <p className="lg:w-2/3 mx-auto leading-relaxed text-base mb-8">
           Every once in a while I come across people doing extraordinary things,

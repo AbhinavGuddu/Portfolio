@@ -4,7 +4,7 @@ import React from "react";
 export default function Navbar() {
   const onButtonClick = () => {
     // using Java Script method to get PDF file
-    fetch("NaliniResume.pdf").then((response) => {
+    fetch("AbhinavResume.pdf").then((response) => {
       response.blob().then((blob) => {
         // Creating new object of PDF file
         const fileURL = window.URL.createObjectURL(blob);

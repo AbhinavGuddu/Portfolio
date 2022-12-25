@@ -1,8 +1,6 @@
 import React from "react";
 import { CodeBracketIcon } from "@heroicons/react/24/solid";
-
 import { projects } from "../Data";
-
 const Projects = () => {
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
@@ -50,5 +48,4 @@ const Projects = () => {
     </section>
   );
 };
-
 export default Projects;
