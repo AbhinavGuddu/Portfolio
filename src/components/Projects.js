@@ -3,7 +3,7 @@ import { CodeBracketIcon } from "@heroicons/react/24/solid";
 import { projects } from "../Data";
 const Projects = () => {
   return (
-    <section id="projects" className="text-gray-400 bg-gray-900 body-font">
+    <section id="projects" className="text-gray-400 bg-grey-700 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-10">
           <CodeBracketIcon className="mx-auto inline-block w-10 mb-4" />
@@ -11,10 +11,7 @@ const Projects = () => {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Best way to learn something is to get your hands dirty. "Creating
-            something with code" for me ultimately means really understanding
-            human needs context and understanding what the technological
-            potential is and creating solutions that can really help people.
+          The best way to learn something is to get practical experience and use that knowledge to help others. This is the most effective way to not only understand a concept, but also to master a skill and make a positive impact.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

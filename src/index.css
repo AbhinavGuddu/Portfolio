@@ -1,3 +1,68 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    /* .vibrate-button {
+        animation: vibrate 0.2s linear infinite;
+      }
+      
+      .vibrate-button:hover {
+        animation-play-state: paused;
+      }
+      
+      @keyframes vibrate {
+        
+            from {
+              transform: translate(-2px, 0);
+            }
+            to {
+              transform: translate(2px, 0);
+            }
+      }
+      
+      ... */
+
+      .vibrate-button {
+        animation: vibrate 0.8s infinite;
+      }
+      .vibrate-button:hover {
+        animation-play-state: paused;
+      }
+      @keyframes vibrate {
+        10%, 90% {
+          transform: translate3d(-1px, 0, 0);
+        }
+        
+        20%, 80% {
+          transform: translate3d(2px, 0, 0);
+        }
+        
+        30%, 50%, 70% {
+          transform: translate3d(-4px, 0, 0);
+        }
+        
+        40%, 60% {
+          transform: translate3d(3px, 0, 0);
+        }
+      }
+
+      @layer utilities {
+        .doanload-buttons {
+            animation: vibrate 1s infinite;
+          }
+          
+          @keyframes vibrate {
+            from {
+              transform: translate(0, 0);
+            }
+            50% {
+              transform: translate(-5px, 0);
+            }
+            to {
+              transform: translate(0, 0);
+            }
+          }
+          
+      }
+    }

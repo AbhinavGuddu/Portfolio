@@ -9,11 +9,7 @@ const ReadingCorner = () => {
           My favourite:
         </h1>
         <p className="lg:w-2/3 mx-auto leading-relaxed text-base mb-8">
-          Every once in a while I come across people doing extraordinary things,
-          showcasing their work, or just quenching their curiosity; all the
-          while inspiring me in many ways. I would always like to have a
-          dedicated corner in my space for these kinds of inspirations, ideas
-          and solutions.
+        I am frequently inspired by the amazing things people do, and I collect these sources of inspiration in a dedicated space where I can reflect on and draw from these ideas for personal projects and pursuits.
         </p>
 
         <div className="flex flex-wrap m-2">

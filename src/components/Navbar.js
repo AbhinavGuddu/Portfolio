@@ -17,7 +17,7 @@ export default function Navbar() {
     });
   };
   return (
-    <header className="bg-gray-800 md:sticky top-0 z-10">
+    <header className="bg-slate-800 md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a
           href="#about"
@@ -34,17 +34,17 @@ export default function Navbar() {
           <a href="#skills" className="mr-5 hover:text-white">
             Skills
           </a>
-          <a href="#testimonials" className="mr-5 hover:text-white">
-            Testimonials
-          </a>
+          {/* <a href="#testimonials" className="mr-5 hover:text-white">
+             Testimonials
+            </a>*/}
           <a href="#blogs" className="mr-5 hover:text-white">
-            Food For Thought
+            favourite
           </a>
         </nav>
         <div className="inline-flex items-center">
           <a
             className="mr-3 focus:outline-none hover:bg-gray-700 rounded-3xl text-base mt-4 md:mt-0"
-            href="https://www.linkedin.com/in/nalini-mahajan-3784906a/"
+            href="https://www.linkedin.com/in/abhinav-guddu-a28974166/"
             target="blank"
           >
             <img
@@ -54,8 +54,8 @@ export default function Navbar() {
             />
           </a>
           <a
-            className="mr-3 focus:outline-none hover:bg-gray-700 rounded-3xl text-base mt-4 md:mt-0"
-            href="https://github.com/nalini793"
+            className="mr-3 focus:outline-none hover:bg-gray-900 rounded-3xl text-base mt-4 md:mt-0"
+            href="https://github.com/AbhinavGuddu"
             target="blank"
           >
             <img
@@ -69,7 +69,7 @@ export default function Navbar() {
             className="mr-3 focus:outline-none hover:bg-gray-700 rounded-lg text-base mt-4 md:mt-0"
           >
             <img
-              className="w-8 h-8"
+              className="w-8 h-8 doanload-buttons"
               alt="Download Resume"
               src="./icons8-resume-64.png"
             />

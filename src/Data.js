@@ -57,7 +57,7 @@ export const blogs = [
   {
     name: "BhaiLang programming language🤣🤣",
     quote: `Bhailang is dynamically typed toy programming language, based on an inside joke, written in Typescript.`,
-    url: "https://chreke.com/little-languages.htmlhttps://bhailang.js.org/",
+    url: "https://bhailang.js.org/",
   },
 
   {
@@ -82,30 +82,34 @@ export const blogs = [
   //   url: "https://github.com/sjmc11/tourguide-js",
   // },
 ];
-export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/women/1.jpg",
-    name: "Jesse Doe",
-    company: "Wazon",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "John Doe",
-    company: "Fable.io",
-  },
-];
+
+
+// export const testimonials = [
+//   {
+//     quote:
+//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
+//     image: "https://randomuser.me/api/portraits/women/1.jpg",
+//     name: "Jesse Doe",
+//     company: "Wazon",
+//   },
+//   {
+//     quote:
+//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
+//     image: "https://randomuser.me/api/portraits/men/94.jpg",
+//     name: "John Doe",
+//     company: "Fable.io",
+//   },
+// ];
 
 export const skills = [
   "Core Java",
   "JavaScript",
   "React",
+  "vite",
   "Node",
   "Express",
   "Mongo DB",
   "SQL",
   "Bootstrap",
+  "sass",
 ];
