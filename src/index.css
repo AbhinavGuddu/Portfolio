@@ -24,7 +24,7 @@
       ... */
 
       .vibrate-button {
-        animation: vibrate 0.8s infinite;
+        animation: vibrate 0.5s infinite;
       }
       .vibrate-button:hover {
         animation-play-state: paused;
@@ -49,7 +49,7 @@
 
       @layer utilities {
         .doanload-buttons {
-            animation: vibrate 1s infinite;
+            animation: vibrate 0.5s infinite;
           }
           
           @keyframes vibrate {
