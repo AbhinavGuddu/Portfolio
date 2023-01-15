@@ -51,7 +51,9 @@
         .doanload-buttons {
             animation: vibrate 0.5s infinite;
           }
-          
+          .doanload-buttons:hover {
+            animation-play-state: paused;
+          }
           @keyframes vibrate {
             from {
               transform: translate(0, 0);
@@ -66,3 +68,4 @@
           
       }
     }
+    
